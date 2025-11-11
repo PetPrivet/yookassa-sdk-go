@@ -1,6 +1,7 @@
 ## Working with Webhooks
 
 The SDK includes the `yoowebhook.WebhookEvent` structure for handling webhook events from the payment system. It supports the following events:
+
 - `payment.succeeded` — Successful payment
 - `payment.waiting_for_capture` — Payment received, awaiting confirmation
 - `payment.canceled` — Payment cancellation or payment error
@@ -33,7 +34,7 @@ import (
 	"net/http"
 	"strings"
 
-	yoowebhook "github.com/rvinnie/yookassa-sdk-go/yookassa/webhook"
+	yoowebhook "github.com/PetPrivet/yookassa-sdk-go/yookassa/webhook"
 )
 
 func main() {
